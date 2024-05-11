@@ -20,18 +20,18 @@ const Faq = () => {
         "Yes. It's animated by default, but you can disable it if you prefer.",
     },
     {
-      value: 'item-1',
+      value: 'item-4',
       triggerContent: 'Is it accessible?',
       content: 'Yes. It adheres to the WAI-ARIA design pattern.',
     },
     {
-      value: 'item-2',
+      value: 'item-5',
       triggerContent: 'Is it styled?',
       content:
         'Yes. It comes with default styles that matches the other components aesthetic.',
     },
     {
-      value: 'item-3',
+      value: 'item-6',
       triggerContent: 'Is it animated?',
       content:
         "Yes. It's animated by default, but you can disable it if you prefer.",

@@ -27,7 +27,7 @@ const PricingPage = () => {
             <div className='w-full p-3'>Notability</div>
           </div>
         </div>
-        <div className='col-span-1 border border-slate-700 px-16 py-9 space-y-5 rounded-2xl flex flex-col justify-center md:mb-16 h-[600px]'>
+        <div className='col-span-1 border border-slate-700 px-16 py-9 space-y-5 rounded-2xl flex flex-col justify-center mt-9 md:h-[600px]'>
           <div className='text-xl font-medium'>Basic</div>
           <div>
             AI chatbot, personalized <br /> recommendations
