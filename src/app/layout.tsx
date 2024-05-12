@@ -21,25 +21,7 @@ export default function RootLayout({
     <>
       <html lang='en' suppressHydrationWarning className='bg-hi'>
         <head />
-        <body>
-          <ThemeProvider
-            attribute='class'
-            defaultTheme='system'
-            enableSystem
-            disableTransitionOnChange
-          >
-            {/* <Image
-              src='/image.png'
-              width={9000}
-              height={9000}
-              alt=''
-              className='z-99 top-0'
-            /> */}
-
-            {/* <Navbar /> */}
-            {children}
-          </ThemeProvider>
-        </body>
+        <body className='bg-hi overflow-x-hidden'>{children}</body>
       </html>
     </>
   );

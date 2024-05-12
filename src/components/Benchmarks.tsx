@@ -12,15 +12,14 @@ const Benchmarks = () => {
         Automatically generate high-quality sequences uniquely crafted
         <br /> for your value proposition and your target prospects.
       </div>
-      <div className='w-full md:max-w-lg'>
-        <Image
-          src='/benchmark.png'
-          width={800}
-          height={800}
-          alt='benchmark'
-          className='object-cover mt-5 scale-125'
-        />
-      </div>
+
+      <Image
+        src='/benchmark.png'
+        width={700}
+        height={700}
+        alt='benchmark'
+        className='w-full h-full'
+      />
     </div>
   );
 };

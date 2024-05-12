@@ -40,10 +40,10 @@ const Faq = () => {
 
   return (
     <div className='bg-hi grid grid-cols-1 md:grid-cols-2 text-center'>
-      <h1 className='bg-clip-text text-transparent bg-gradient-to-r from-gray-100 to-gray-500 text-4xl md:text-7xl text-left p-16 capitalize font-bold'>
+      <h1 className='bg-clip-text text-transparent bg-gradient-to-r from-gray-100 to-gray-500 text-4xl md:text-7xl md:text-left md:px-24 md:mt-12 capitalize font-bold text-center'>
         Frequently asked questions
       </h1>
-      <div className='text-white p-3 md:p-9'>
+      <div className='text-white px-16 py-5 md:p-9'>
         <AccordionDemo items={accordionItems} />
       </div>
     </div>

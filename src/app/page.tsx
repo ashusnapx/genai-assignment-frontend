@@ -13,10 +13,8 @@ import {
 export default function Home() {
   return (
     <>
-      <div>
-        <Navbar />
-        <HeroSection />
-      </div>
+      <Navbar />
+      {/* <HeroSection /> */}
       <Brands />
       <Products />
       <Products />

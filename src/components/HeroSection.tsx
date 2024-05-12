@@ -3,7 +3,7 @@ import { Button } from './ui/button';
 
 const HeroSection = () => {
   return (
-    <div className='bg-hi bg-my-image text-white overflow-hidden'>
+    <div className=' text-white overflow-hidden'>
       <div className='flex flex-col md:flex-row items-center justify-between space-y-6'>
         <div className='flex flex-col items-start p-16 space-y-6'>
           <p className='border rounded-2xl px-2 py-1 bg-hi text-white'>
@@ -18,7 +18,13 @@ const HeroSection = () => {
           </Button>
         </div>
         <div>
-          <Image src='/hero.png' width={900} height={500} alt='hero' className='hidden md:block md:object-fill'/>
+          <Image
+            src='/hero.png'
+            width={900}
+            height={500}
+            alt='hero'
+            className='hidden md:block md:object-fill'
+          />
         </div>
       </div>
     </div>

@@ -1,6 +1,6 @@
 import type { Config } from 'tailwindcss';
 
-const config = {
+const config: Config = {
   darkMode: ['class'],
   content: [
     './pages/**/*.{ts,tsx}',
@@ -80,11 +80,17 @@ const config = {
         display: ['Poppins', 'sans-serif'],
       },
       backgroundImage: {
-        'my-image':'url(/image.png)'
-      }
+        'my-image': 'url(/image.png)',
+      },
+      dropShadow: {
+        glow: [
+          '0 0px 20px rgba(255,255, 255, 0.35)',
+          '0 0px 65px rgba(255, 255,255, 0.2)',
+        ],
+      },
     },
   },
   plugins: [require('tailwindcss-animate')],
-} satisfies Config;
+};
 
 export default config;
